@@ -12,13 +12,6 @@ The system enables users to query environmental metrics (e.g., NDVI, NBR, EVI, M
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Test Cases](#test-cases)
-- [Future Scope](#future-scope)
-- [Contributors](#contributors)
-- [License](#license)
-- [References](#references)
 
 ---
 
@@ -69,10 +62,29 @@ The system processes queries like "How has forest cover evolved in Telangana ove
 
 ---
 
+## Initial Results
+
+The system was tested with various queries to validate its functionality and accuracy in processing environmental data. Below are key results showcasing the system's ability to generate textual reports, interactive visualizations, and geospatial maps:
+
+- **Chatbot Interface**: The Streamlit-based UI provides a conversational chatbot for users to input natural language queries and view responses, including reports and visualizations.  
+  ![Chatbot UI](screenshots/chatbot_ui.png)
+
+- **Generated Report**: Comprehensive textual reports are generated using the Gemini API, summarizing environmental metrics like NDVI, NBR, or land cover for user-specified states and years.  
+  ![Generated Report](screenshots/generated_report.png)
+
+- **GEE Maps**: Interactive maps from Google Earth Engine display environmental metrics (e.g., NDVI, MNDWI) and land cover classifications, clipped to state boundaries.  
+  ![GEE Map](screenshots/gee_map.png)
+  ![Land Cover Classification](screenshots/land_cover_classification.png)
+  ![MNDWI Layer](screenshots/mndwi_layer.png)
+
+- **Visualizations**: The system produces interactive Plotly charts, including bar graphs, pie charts, and line graphs, to illustrate trends and distributions of environmental metrics.  
+  ![Bar Graph](screenshots/bar_graph.png)
+  ![Pie Chart](screenshots/pie_chart.png)
+  ![Line Graph](screenshots/line_graph.png)
+
+These results demonstrate the system's capability to handle complex queries, deliver actionable insights, and visualize geospatial data effectively.
+
 ## Installation
 Follow these steps to set up the project locally:
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+** WORK IN PROGRESS, WILL UPDATE ONCE COMPLETED **
