@@ -75,7 +75,6 @@ The system was tested with various queries to validate its functionality and acc
 - **GEE Maps**: Interactive maps from Google Earth Engine display environmental metrics (e.g., NDVI, MNDWI) and land cover classifications, clipped to state boundaries.  
   ![GEE Map](screenshots/gee_map.png)
   ![Land Cover Classification](screenshots/land_cover_classification.png)
-  ![MNDWI Layer](screenshots/mndwi_layer.png)
 
 - **Visualizations**: The system produces interactive Plotly charts, including bar graphs, pie charts, and line graphs, to illustrate trends and distributions of environmental metrics.  
   ![Bar Graph](screenshots/bar_graph.png)
