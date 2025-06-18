@@ -25,9 +25,9 @@ except Exception:
     ee.Initialize(project='ee-muvvaadityavardhan')
 
 # API Keys and Constants
-MISTRAL_API_KEY = "bAVPgWJVSNP5pvmJZeSehN8OD9KapHHv"  # Replace with your actual key
-GEMINI_API_KEY = "AIzaSyA5l-6R3H1lBUDRLFeyCZctS1hIS0YAc3Y"  # Replace with your actual key
-MISTRAL_API_URL = "https://api.mistral.ai/v1/chat/completions"
+MISTRAL_API_KEY = "xxxxxxxxxx"  # Replace with your actual key
+GEMINI_API_KEY = "xxxxxxxxxxx"  # Replace with your actual key
+MISTRAL_API_URL = "xxxxxxxxxxxxxx"
 CORPUS_FOLDER = "CORPUS"  # Ensure this folder exists with state files
 
 state_corpus_files = {
