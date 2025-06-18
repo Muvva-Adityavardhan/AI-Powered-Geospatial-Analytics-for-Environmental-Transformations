@@ -19,10 +19,10 @@ from uuid import uuid4
 
 # Initialize Earth Engine
 try:
-    ee.Initialize(project='ee-muvvaadityavardhan')
+    ee.Initialize(project='xxxxxxxxx')
 except Exception:
     ee.Authenticate()
-    ee.Initialize(project='ee-muvvaadityavardhan')
+    ee.Initialize(project='xxxxxxxxxxx')
 
 # API Keys and Constants
 MISTRAL_API_KEY = "xxxxxxxxxx"  # Replace with your actual key
